@@ -19,8 +19,7 @@ user_string = input('Введіть стрічку з символами:')
 new_string = ''
 for string_element in user_string:
     if string_element.isupper():
-
-        'new_string = new_string + string_element
+        new_string = new_string + string_element
 print(new_string)
 
 for day in range(0,7):
@@ -28,6 +27,5 @@ for day in range(0,7):
     temp_f = ((temp_c + 40) * 1.8)-40
     #print(temp_f.quantize(Decimal('0.1')))
     print(temp_f)
-
 
 
