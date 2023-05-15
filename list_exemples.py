@@ -108,11 +108,11 @@
 #
 #new_set_common = set1.intersection(set2)
 #print(new_set_common)
-#
-#new_set_common_3_10_and_high = set1 & set2
-#print(new_set_common_3_10_and_high)
-#print(new_set_common == new_set_common_3_10_and_high)
-#
+
+new_set_common_3_10_and_high = set1 & set2
+print(new_set_common_3_10_and_high)
+print(new_set_common == new_set_common_3_10_and_high)
+
 #new_set_common = set1.intersection(set2)
 #print(new_set_common)
 #new_set_common_3_10_and_high = set1 & set2
@@ -122,7 +122,22 @@
 #words = input('enter your text')
 #print(words)
 
-word = {'Lviv', 'Kyiv', 'Odesa'}
-word_add = word.update('Lviv', London)
-print(word_add)
+#word = {'Lviv', 'Kyiv', 'Odesa'}
+#word_add = word.update('Lviv', London)
+#print(word_add)
 
+name = 'John1'
+person['name'] = 'Jack'
+person['age'] = 55
+person['add']
+
+person['hobbies'].sort()
+
+index_data = person['hobbies'].index('swimming')
+person['hobbies'][index_data] = 'soccer'
+
+for subject in person.get('subject', )
+    print(subject)
+
+for something in person:
+    print(something)
